@@ -1,0 +1,29 @@
+{
+	"name": "schoology",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"ng": "ng",
+		"test": "ng test",
+		"pree2e": "webdriver-manager start & sleep 5",
+		"e2e": "protractor protractor.conf.js",
+		"webdriver-update": "./node_modules/protractor/bin/webdriver-manager update"
+	},
+	"engines": {
+		"node": "8.9.3"
+	},
+	"private": true,
+	"dependencies": {
+		"@types/jasmine": "^2.5.45",
+		"@types/node": "^12.12.9",
+		"chai": "^4.2.0",
+		"chai-as-promised": "^7.1.1",
+		"chromedriver": "78.0.1",
+		"core-js": "2.5.7",
+		"cucumber": "^6.0.5",
+		"multiple-cucumber-html-reporter": "^1.11.4",
+		"protractor": "^5.4.2",
+		"protractor-cucumber-framework": "6.2.0",
+		"protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0"
+	}
+}
