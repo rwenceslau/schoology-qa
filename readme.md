@@ -8,6 +8,7 @@ Login and Create-a-couse happy path scenarios.
 
 ```
 npm install
+webdriver-manager update
 ```
 
 ### Running automation tests

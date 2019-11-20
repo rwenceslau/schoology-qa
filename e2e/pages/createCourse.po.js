@@ -11,7 +11,7 @@ let EC = protractor.ExpectedConditions,
     fieldSubjectArea,
     fieldLevel,
     saveCourseButton,
-    createdCourseTitle;
+    createdCourseTokenDiv;
 
 module.exports = {
     init: () => {
@@ -22,7 +22,7 @@ module.exports = {
         fieldSubjectArea = element(by.id('edit-subject-area'));
         fieldLevel = element(by.id('edit-grade-level-range-start'));
         saveCourseButton = element(by.id('edit-submit'));
-        createdCourseTitle = element(by.id('content-left'));
+        createdCourseTokenDiv = element(by.id('content-left'));
     },
 
     clickBtnCreateCourse: () => {
@@ -61,8 +61,8 @@ module.exports = {
         return saveCourseButton.click();
     },
 
-    getCreatedCourseTitle: ()=> {
-        browser.wait(EC.presenceOf(createdCourseTitle), 30000);
-        return createdCourseTitle.getText();
+    getCreatedCourseAccessToken: ()=> {
+        browser.wait(EC.presenceOf(createdCourseTokenDiv), 30000);
+        return createdCourseTokenDiv.getText();
     }
 };

@@ -1,0 +1,195 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "The user can create a simple course",
+    "line": 2,
+    "id": "the-user-can-create-a-simple-course",
+    "tags": [
+      {
+        "name": "@createCourse",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/createCourse.feature",
+    "elements": [
+      {
+        "id": "the-user-can-create-a-simple-course;user-creating-a-course",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User creating a course",
+        "tags": [
+          {
+            "name": "@createCourse",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/common/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a user logged in on Schoology page",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the Courses button in the header",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the My Courses Link in the inner menu",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the Create Course button in the Manage Courses section",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I fill 'Automation Test Name' as the course name",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I fill 'Automation Section Name' as the section name",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select a valid subject area",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I select a valid level",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click the Create button",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the recently created course label",
+            "match": {
+              "location": "e2e/specs/createCourse.spec.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5667000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "78.0.3904.97"
+      },
+      "device": "Macbook",
+      "platform": {
+        "name": "osx",
+        "version": "18.7.0"
+      }
+    }
+  }
+]

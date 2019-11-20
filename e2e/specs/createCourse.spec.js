@@ -41,5 +41,5 @@ When('I click the Create button', async function () {
 });
 
 Then('I should see the recently created course label', async function () {
-    await expect(createCourse.getCreatedCourseTitle()).to.eventually.have.string('Access Code');
+    await expect(createCourse.getCreatedCourseAccessToken()).to.eventually.have.string('Access Code');
 });
