@@ -15,6 +15,7 @@ Feature: The user can create a simple course
         And I select a valid level
         When I click the Create button
         Then I should see the recently created course label
+        And I see the created course Access Code
 
         Examples:
             | name                    | section   |
