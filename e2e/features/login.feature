@@ -9,4 +9,4 @@ Feature: User accessing Schoology - Login
 
         Examples:
             | email                    | password   |
-            | wenceslaurodrigo@gmail.com | rwtorres12 |
+            | wenceslaurodrigo@gmail.com | --------- |
